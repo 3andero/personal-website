@@ -1,0 +1,47 @@
+.date-time-print {
+  margin: 0;
+  margin-bottom: 1em;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: transparent;
+  height: 2em;
+  text-align: center;
+}
+
+.date-time-print.light {
+  border: 1px solid #222;
+}
+
+.date-time-print.night {
+  border: 1px solid #f3f3f3;
+}
+
+.date-time-print:hover.light {
+  outline: 1px solid black;
+}
+
+.date-time-print:hover.night {
+  outline: 1px solid #f3f3f3;
+}
+
+.date-time-print:focus.light {
+  outline: 1px solid black;
+}
+
+.date-time-print:focus.night {
+  outline: 1px solid #f3f3f3;
+}
+
+.date-time-sub-component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.date-time-switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

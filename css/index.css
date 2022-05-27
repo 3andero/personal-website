@@ -1,0 +1,67 @@
+h1.patch {
+  font-size: 6em;
+  margin: 0.67rem;
+  margin-left: 0;
+}
+
+h3.patch,
+.in-body-button {
+  font-size: 1.3em;
+  margin: 0.3rem;
+}
+
+p.patch {
+  margin: 0.3rem;
+  word-wrap: normal;
+  width: 24em;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+.in-body-button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 1em;
+}
+
+.in-body-button {
+  border-radius: 50%;
+  width: 5.5em;
+  height: 5.5em;
+  display: inline-block;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0.67rem;
+  margin-left: 0em;
+  transition: background-color 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.in-body-button.light {
+  background-color: #51b1e6cf;
+  border: 1px solid #222;
+}
+
+.in-body-button.night {
+  background-color: #0c65a5da;
+  border: 1px solid #f3f3f3c2;
+}
+
+.in-body-button.about.light {
+  background-color: rgb(255, 185, 56);
+}
+
+.in-body-button.about.night {
+  background-color: #f27d00cf;
+}
+
+.in-body-button:hover.light {
+  background-color: white;
+}
+
+.in-body-button:hover.night {
+  background-color: white;
+  color: #222;
+}

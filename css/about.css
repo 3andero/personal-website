@@ -1,0 +1,46 @@
+h2.patch {
+  margin-top: 1rem;
+  display: flex;
+  flex: 1rem;
+}
+
+.cv-tbl .r-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1em;
+}
+
+.cv-tbl .r-col .elem {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cv-tbl .time {
+  margin-top: 0;
+  padding: 0;
+  padding-right: 1em;
+  min-width: 8em;
+  flex: 1;
+}
+
+.cv-tbl .t1 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+.cv-tbl .location {
+  margin: 0;
+  font-style: italic;
+}
+
+.cv-tbl .desc {
+  margin-top: 0.2em;
+}
+
+.cv-tbl .desc-col {
+  flex: 3;
+}
