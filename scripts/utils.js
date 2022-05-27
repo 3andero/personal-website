@@ -19,8 +19,7 @@ const oppositeTheme = {
 };
 
 const setupTheme = () => {
-  const currTheme = window.localStorage.getItem("theme");
-  console.assert(currTheme);
+  const currTheme = window.localStorage.getItem("theme") || light;
   document.querySelectorAll(`.${oppositeTheme[currTheme]}`).forEach((e) => {
     e.classList.toggle(oppositeTheme[currTheme], false);
     e.classList.toggle(currTheme, true);
